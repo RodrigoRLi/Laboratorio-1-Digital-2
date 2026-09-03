@@ -40,7 +40,7 @@ int estadobt3 = digitalRead(bt3);
   }
   if (estadoanteriorbt2 == LOW && estadobt2 ==HIGH){
     contadordec++;
-    if (contadordec == 5){
+    if (contadordec == 4){
       contadordec = 0;
     }
     estadoanteriorbt2 = 1;
